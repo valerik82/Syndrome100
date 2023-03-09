@@ -14,6 +14,7 @@ public class StatisticsServiceTest {
         assertEquals(12, service.findMax(incomesInBillions));
 
     }
+
     @Test
     public void testFindMaxReturnsOnlyValue() {
         StatisticsService service = new StatisticsService();
